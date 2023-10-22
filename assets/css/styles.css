@@ -8,9 +8,11 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(195, 100%, 30%);
-  --gradient-color: linear-gradient(90deg,
-                    hsl(210, 55%, 20%),
-                    hsl(192, 62%, 25%));
+  --gradient-color: linear-gradient(
+    90deg,
+    hsl(210, 55%, 20%),
+    hsl(192, 62%, 25%)
+  );
   --title-color: hsl(210, 52%, 20%);
   --text-color: hsl(210, 24%, 15%);
   --white-color: #fff;
@@ -21,8 +23,8 @@
   --body-font: "Poppins", sans-serif;
   --second-font: "Lora", serif;
   --biggest-font-size: 2.25rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
 
   /*========== Font weight ==========*/
   --font-regular: 400;
@@ -39,7 +41,7 @@
   :root {
     --biggest-font-size: 4rem;
     --normal-font-size: 1rem;
-    --small-font-size: .875rem;
+    --small-font-size: 0.875rem;
   }
 }
 
@@ -84,30 +86,21 @@ img {
 
 /*=============== HEADER & NAV ===============*/
 
-
 /* Navigation for mobile devices */
-
 
 /* Show menu */
 
-
 /* Change background header */
 
-
 /*=============== HOME ===============*/
-
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 
-
 /* For taller devices */
-
 
 /* For medium devices */
 
-
 /* For large devices */
-
 
 /* For 2K resolutions (2048 x 1152) */
