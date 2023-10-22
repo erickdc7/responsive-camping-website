@@ -280,6 +280,20 @@ img {
 }
 
 /* For medium devices */
+@media screen and (min-width: 480px) {
+  .home__content {
+    max-width: 305px;
+  }
+
+  .home__bird-2 {
+    right: -3rem;
+  }
+
+  .home__images img {
+    width: initial;
+    left: 0;
+  }
+}
 
 /* For large devices */
 
