@@ -179,6 +179,9 @@ img {
 }
 
 /* Change background header */
+.bg-header {
+  box-shadow: 0 1px 16px hsla(210, 55%, 24%, 0.12);
+}
 
 /*=============== HOME ===============*/
 .home {
